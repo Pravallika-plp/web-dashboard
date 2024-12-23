@@ -204,7 +204,7 @@
                 if (!response.ok) {
                     throw new Error('Network response was not ok ' + response.statusText);
                 }
-                const data = await response.json(); // Parse JSON response
+                const data = await response.json(); // Parse JSON resp
                 
                 // Process and update the chart data
                 const now = new Date().toISOString();
